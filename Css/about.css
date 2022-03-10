@@ -1,0 +1,72 @@
+
+
+
+/* Navbar */
+.navbar {
+    border: solid black;
+    list-style-type: none;
+    padding: 0;
+    width: 250px;
+    background: #c695f3;
+    opacity: 0.6;
+    height: 90vh;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+  }
+  
+  header {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 15px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  a:hover {
+    color: white;
+  }
+  /* grid */
+  .grid-containers {
+    display: grid;
+    grid-template-areas:
+      "navbar main main main"
+      " navbar ";
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  /* Slides */
+  .mySlides{
+      height: 70vh;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+      border: solid  #c695f3;
+      margin-left: -20%;
+     
+  }
+  
+  /* About me section */
+
+  .aboutMe{
+       text-align: center;
+      border: #c695f3 solid;
+      margin-left: 55%;
+      margin-right: 3%;
+      margin-top: -15%;
+      height: 55vh;
+      width: 38%;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+      
+  }
+  .aboutText{
+ text-align: center;
+ padding-left: 14%;
+ padding-right: 14%;
+  }
