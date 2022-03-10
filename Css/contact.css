@@ -1,0 +1,91 @@
+/* Navbar */
+.navbar {
+  border: solid black;
+  list-style-type: none;
+  padding: 0;
+  width: 250px;
+  background: #998f8f;
+  opacity: 0.7;
+  height: 90vh;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 3%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+}
+
+header {
+  font-size: 3rem;
+  text-align: center;
+}
+
+a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 15px;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+a:hover {
+  color: white;
+}
+/* grid */
+.grid-containers {
+  display: grid;
+  grid-template-areas:
+    "navbar main main main"
+    " navbar ";
+  gap: 20px;
+  padding: 10px;
+}
+
+/* Contact Form */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #c695f3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form {
+  margin-top: 10%;
+}
+
+input[type="submit"]:hover {
+  background-color: #d3b6eb;
+}
+
+.container {
+  padding: 20px;
+  margin-left: 25%;
+}
+
+body { 
+    background: url(contactbackground.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
