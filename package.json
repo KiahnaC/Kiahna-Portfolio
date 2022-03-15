@@ -4,6 +4,7 @@
   "description": "<h1 class=\"header1 w3-row-padding col-lg-12 float-lg-left\">Get to Know Me!</h1>     <div class=\"aboutMe w3-third w3-container w3-margin-bottom \"style=\"width:100%\">",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
